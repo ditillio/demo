@@ -1,0 +1,49 @@
+<!doctype html>
+{% assign depth = 0 %}
+{% assign path = page.path | split: '/' %}
+{% assign filename = path[1] | remove: '.md' %}
+{% assign textbook = site.data.toc %}
+{% assign parts = textbook.parts | where: "folder", path[0] %}
+{% assign part = parts[0] %}
+{% assign chapters = part.chapters | where: "filename", filename %}
+{% assign chapter = chapters[0] %}
+{% if page.version %}
+{% assign version = page.version %}
+{% else %}
+{% assign version = "0.3.0" %}
+{% endif %}
+<html lang="en">
+<head>
+    <title>{{ chapter.title }}</title>
+    {% include stylesheets.html KGversion=version bootstrap=false textbook=true %}
+</head>
+<body>
+<article>
+    {% if page.foreword %}
+    <div class="subtitle"><a href="{{ site.url }}">{{ textbook.title }}</a></div>
+    <h1>Prefazione</h1>
+    <hr/>
+    <section>
+        {{ content }}
+    </section>
+    {% else %}
+    <div class="subtitle">
+        <a href="{{ site.url }}">{{ textbook.title }}</a> / {% if chapter.appendix %}
+        Appendix {{ chapter.number }}
+        {% else %}
+        Capitolo {{ chapter.number }} - {{chapter.title}}
+        {% endif %}
+    </div>
+    <h1>{{ chapter.title }}</h1>
+    <hr/>
+    <section>
+        {{ content }}
+    </section>
+    {% endif %}
+</article>
+<div class="watermark">
+    Copyright (c) {{ site.author}}
+</div>
+</body>
+{% include scripts.html KGversion=version bootstrap=false renderMath=true %}
+</html>

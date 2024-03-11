@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title> - EconGraphs</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Alfredo di Tillio">
+
+<link href="http://localhost:4000/static/css/kg-tufte.0.3.0.css" rel="stylesheet">
+
+<link href="http://localhost:4000/static/css/textbook.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    
+    <article>
+        <h1>Note di Microeconomia</h1>
+        <p>Alfredo Di Tillio</p>
+        <hr/>
+        <div style="padding: 20px">
+            <div class="chapter">
+                <div class="number"></div>
+                <a href="./foreword.html">Prefazione</a></div>
+        </div>
+        
+        <div style="padding: 20px">
+            <div class="subtitle" style="padding-top:30px; padding-bottom:20px">
+                
+                Parte I: Titolo della Parte I
+                
+            </div>
+            <div style="padding: 5px; margin-left: 15px">
+                
+                <div class="chapter_link">
+                    <div class="number">1 </div>
+                    <a href="./parte1/capitolo1">Introduzione</a>
+                </div>
+                
+                <div class="chapter_link">
+                    <div class="number">2 </div>
+                    <a href="./parte1/capitolo2">Titolo del Capitolo 2</a>
+                </div>
+                
+                <div class="chapter_link">
+                    <div class="number">3 </div>
+                    <a href="./parte1/capitolo3">Titolo del Capitolo 3</a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div style="padding: 20px">
+            <div class="subtitle" style="padding-top:30px; padding-bottom:20px">
+                
+                Parte II: Titolo della Parte II
+                
+            </div>
+            <div style="padding: 5px; margin-left: 15px">
+                
+                <div class="chapter_link">
+                    <div class="number">4 </div>
+                    <a href="./parte2/capitolo4">Titolo del Capitolo 4</a>
+                </div>
+                
+                <div class="chapter_link">
+                    <div class="number">5 </div>
+                    <a href="./parte2/capitolo5">Titolo del Capitolo 5</a>
+                </div>
+                
+                <div class="chapter_link">
+                    <div class="number">6 </div>
+                    <a href="./parte2/capitolo6">Titolo del Capitolo 6</a>
+                </div>
+                
+            </div>
+        </div>
+        
+        </div>
+
+    </article>
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">&copy; 2024 Alfredo Di Tillio</p>
+    </div>
+</footer>
+
+
+
+<script src="http://localhost:4000/static/js/bootstrap.bundle.min.js"></script>
+
+<script src="http://localhost:4000/static/js/kg3d.0.3.0.js"></script>
+
+<script>
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false},
+            {left: "\\[", right: "\\]", display: false},
+            {left: "\\(", right: "\\)", display: true}
+        ]
+    });
+
+    document.body.innerHTML
+        = document.body.innerHTML
+        .replace(/€/g, "$");
+</script>
+
+</body>
+</html>

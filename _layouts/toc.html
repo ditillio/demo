@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{ page.title }} - EconGraphs</title>
+    {% include stylesheets.html KGversion="0.3.0" bootstrap=false textbook=true %}
+</head>
+<body>
+    {% assign textbook = site.data.toc %}
+    <article>
+        <h1>{{ textbook.title }}</h1>
+        <p>{{ textbook.author }}</p>
+        <hr/>
+        <div style="padding: 20px">
+            <div class="chapter">
+                <div class="number"></div>
+                <a href="./foreword.html">Prefazione</a></div>
+        </div>
+        {% for part in textbook.parts %}
+        <div style="padding: 20px">
+            <div class="subtitle" style="padding-top:30px; padding-bottom:20px">
+                {% if part.number %}
+                {{ part.number }}: {{ part.title }}
+                {% else %}
+                {{ part.title }}
+                {% endif %}
+            </div>
+            <div style="padding: 5px; margin-left: 15px">
+                {% for chapter in part.chapters %}
+                <div class="chapter_link">
+                    <div class="number">{{ chapter.number }} </div>
+                    <a href="./{{ part.folder }}/{{ chapter.filename }}">{{ chapter.title }}</a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+        </div>
+
+    </article>
+{% include footer.html %}
+{% include scripts.html KGversion='0.3.0' bootstrap=true renderMath=true %}
+</body>
+</html>

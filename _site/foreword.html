@@ -1,0 +1,58 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Alfredo di Tillio">
+
+<link href="http://localhost:4000/static/css/kg-tufte.0.3.0.css" rel="stylesheet">
+
+<link href="http://localhost:4000/static/css/textbook.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<article>
+    
+    <div class="subtitle"><a href="http://localhost:4000">Note di Microeconomia</a></div>
+    <h1>Prefazione</h1>
+    <hr/>
+    <section>
+        <p>Questa è la prefazione.</p>
+
+    </section>
+    
+</article>
+<div class="watermark">
+    Copyright (c) 
+</div>
+</body>
+
+<script src="http://localhost:4000/static/js/kg3d.0.3.0.js"></script>
+
+<script>
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false},
+            {left: "\\[", right: "\\]", display: false},
+            {left: "\\(", right: "\\)", display: true}
+        ]
+    });
+
+    document.body.innerHTML
+        = document.body.innerHTML
+        .replace(/€/g, "$");
+</script>
+
+</html>

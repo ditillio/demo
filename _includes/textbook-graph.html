@@ -1,0 +1,8 @@
+{% if include.narrow %}
+{% assign figure-class = "" %}
+{% else %}
+{% assign figure-class = "fullwidth" %}
+{% endif %}
+<figure  class="{{ figure-class }}">
+    {% include embedded-graph.html topic=include.topic subtopic=include.subtopic graph=include.graph clearColor='#fffff8' %}
+</figure>
