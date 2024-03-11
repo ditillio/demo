@@ -1,7 +1,7 @@
 {% if include.bootstrap %}
-<script src="https://www.econgraphs.org/static/js/bootstrap.bundle.min.js"></script>
+<script src="{{ site.baseurl }}/static/js/bootstrap.bundle.min.js"></script>
 {% endif %}
-<script src="https://www.econgraphs.org/static/js/kg3d.{{ include.KGversion | default: '0.3.0' }}.js"></script>
+<script src="{{ site.baseurl }}/static/js/kg3d.{{ include.KGversion | default: '0.2.7' }}.js"></script>
 {% if include.renderMath %}
 <script>
     renderMathInElement(document.body, {

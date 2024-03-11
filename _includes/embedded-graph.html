@@ -1,3 +1,3 @@
 {% assign randomNumber = "now" | date: "%N" %}
 {% assign clearColor = include.clearColor | default: "#fffff8" %}
-<div  id="{{ randomNumber }}" class="kg-container" src="{{ site.url }}/graphs/{{ include.topic }}/{{ include.subtopic }}/{{ include.graph }}.yml"  clearColor="{{ clearColor }}"></div>
+<div  id="{{ randomNumber }}" class="kg-container" src="{{ site.baseurl }}/graphs/{{ include.topic }}/{{ include.subtopic }}/{{ include.graph }}.yml"  clearColor="{{ clearColor }}"></div>
