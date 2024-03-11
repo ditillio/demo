@@ -19,14 +19,6 @@
 </head>
 <body>
 <article>
-    {% if page.foreword %}
-    <div class="subtitle"><a href="{{ site.baseurl }}/">{{ textbook.title }}</a></div>
-    <h1>Prefazione</h1>
-    <hr/>
-    <section>
-        {{ content }}
-    </section>
-    {% else %}
     <div class="subtitle">
         <a href="{{ site.baseurl }}/">{{ textbook.title }}</a> / {% if chapter.appendix %}
         Appendix {{ chapter.number }}
