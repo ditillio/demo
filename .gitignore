@@ -1,12 +1,3 @@
 Gemfile.lock
 .DS_Store
-_site/*.*
-_site/feed.xml
-_site/foreword.html
-_site/index.html
-_site/parte1/capitolo1.html
-_site/parte1/capitolo2.html
-_site/parte1/capitolo3.html
-_site/parte2/capitolo4.html
-_site/parte2/capitolo5.html
-_site/parte2/capitolo6.html
+_site/*
