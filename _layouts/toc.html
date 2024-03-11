@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Demo</title>
+    <title>{{ page.title }} - EconGraphs</title>
     {% include stylesheets.html KGversion="0.3.0" bootstrap=false textbook=true %}
 </head>
 <body>
@@ -13,6 +13,7 @@
         <div style="padding: 20px">
             <div class="chapter">
                 <div class="number"></div>
+                <a href="./foreword.html">Prefazione</a></div>
         </div>
         {% for part in textbook.parts %}
         <div style="padding: 20px">
