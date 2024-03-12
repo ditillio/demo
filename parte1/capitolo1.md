@@ -1,1 +1,3 @@
 Questa è (o forse meglio sarà) l'introduzione ...
+
+{% include textbook-graph.html graph="graph-demand" %}
