@@ -19,27 +19,14 @@
 </head>
 <body>
 <article>
-    {% if page.foreword %}
-    <div class="subtitle"><a href="{{ site.url }}">{{ textbook.title }}</a></div>
-    <h1>Prefazione</h1>
-    <hr/>
-    <section>
-        {{ content }}
-    </section>
-    {% else %}
     <div class="subtitle">
-        <a href="{{ site.url }}/demo">Back</a> / {% if chapter.appendix %}
-        Appendix {{ chapter.number }}
-        {% else %}
-        Capitolo {{ chapter.number }} - {{chapter.title}}
-        {% endif %}
+        <a href="{{ site.url }}/demo">Back</a>
     </div>
     <h1>{{ chapter.title }}</h1>
     <hr/>
     <section>
         {{ content }}
     </section>
-    {% endif %}
 </article>
 <div class="watermark">
     Copyright (c) {{ site.author}}
