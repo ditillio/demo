@@ -28,9 +28,7 @@
     </section>
     {% else %}
     <div class="subtitle">
-        Back <a href="{{ site.url }}/demo">{{ textbook.title }}</a> / {% if chapter.appendix %}
-        Appendix {{ chapter.number }}
-        {% else %}
+        <a href="{{ site.url }}/demo">{{ textbook.title }}</a> / 
         Capitolo {{ chapter.number }} - {{chapter.title}}
         {% endif %}
     </div>
