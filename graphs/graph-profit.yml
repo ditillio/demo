@@ -17,6 +17,7 @@ calcs:
   ac: (64/calcs.q + 0.25*calcs.q^(2 - 1))
   tr: (calcs.q * params.p)
   profit: (calcs.tr - calcs.tc)
+aspectRatio: 0.55
 layout:
   TwoVerticalGraphsPlusSidebar:
     topGraph:
