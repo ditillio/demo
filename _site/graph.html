@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Individual Graph View</title>
-    <link href="https://kineticgraphs.org/css/kg.0.3.1.css" rel="stylesheet" type="text/css">
+    <link href="https://kineticgraphs.org/css/kg.0.3.0.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="graph" class="kg-container">
@@ -17,7 +17,7 @@
         const topic = urlParams.get('topic');
         const subtopic = urlParams.get('subtopic');
         const graph = urlParams.get('graph');
-        const version = urlParams.get('version') || "0.3.1";
+        const version = urlParams.get('version') || "0.3.0";
         let kgjs=document.createElement("script");
         const kgjspath = "https://kineticgraphs.org/js/kg3d."+ version + ".js";
         kgjs.setAttribute("src", kgjspath);
