@@ -42,3 +42,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Used for redirecting
 gem "jekyll-redirect-from"
+gem "webrick", "~> 1.8"
