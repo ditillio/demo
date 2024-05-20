@@ -1,11 +1,14 @@
 ---
-title: Micro
+title: Microeconomics
 author: Alfredo Di Tillio
 parts:
   - title: Demo
-    folder: parte1
-    number: Parte I
+    folder: part1
+    number: Demo
     chapters:
+      - title: Reform Update
+        filename: reformupdate
+        number: 1
       - title: Demo
         filename: demo
-        number: 1
+        number: 2
