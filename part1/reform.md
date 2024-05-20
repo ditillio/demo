@@ -35,15 +35,15 @@
   <li>
     <b>Cournot</b>
     <ul>
-      <li> $\to$ Monopoly as $\sigma\to0$  </li>
-      <li> $\to$ Perfect Competition as $N\to\infty$ and $\sigma\to1$  </li>
+      <li> Monopoly: $\sigma\to0$  </li>
+      <li> Perfect Competition: $\sigma\to1$, $N\to\infty$   </li>
     </ul>
   </li>
   <li>
     <b>Bertrand</b>
     <ul>
-      <li> $\to$ Monopoly as $\sigma\to0$  </li>
-      <li> $\to$ Perfect Competition as $N\to\infty$ or $\sigma\to1$  </li>
+      <li> Monopoly: $\sigma\to0$  </li>
+      <li> Perfect Competition: $\sigma\to1$, $N\geq2$  </li>
     </ul>
   </li>
   <li>
