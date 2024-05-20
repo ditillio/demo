@@ -23,15 +23,51 @@
       \end{gathered}\)
       </span></p>
   </li>
+  <li>
+    <b>Perfect Competition</b>
+  </li>
+  <li>
+    <b>Monopoly and Monopsony</b>
+  </li>
+  <li>
+    <b>Cournot</b>
+    <ul>
+      <li> $\to$ Monopoly as $\sigma\to0$  </li>
+      <li> $\to$ Perfect Competition as $N\to\infty$ and $\sigma\to1$  </li>
+    </ul>
+  </li>
+  <li>
+    <b>Bertrand</b>
+    <ul>
+      <li> $\to$ Monopoly as $\sigma\to0$  </li>
+      <li> $\to$ Perfect Competition as $N\to\infty$ or $\sigma\to1$  </li>
+    </ul>
+  </li>
+  <li>
+    <b>Market Interventions</b>
+  </li>
+  <li>
+    <b>Externalities and Public Goods</b>
+  </li>
+  <li>
+    <b>Choice under Uncertainty</b>
+  </li>
+  <li>
+    <b>Adverse Selection, Screening</b>
+  </li>
+  <li>
+    <b>Moral Hazard</b>
+  </li>
+  <li>
+    <b>Market Design: Auctions</b>
+  </li>
+  <li>
+    <b>Market Design: Matching</b>
+  </li>
 </ul>
 
-<p>
 
 
-(1) Perfect competition, Monopoly & Monopsony, Cournot, Bertrand, Market Interventions
-(2) Externalities & Pub. Goods, Uncertainty, Asymm Info, Principal-Agent, Auctions, Matching
-
-</p>
 
 
 
