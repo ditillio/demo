@@ -24,7 +24,7 @@
       </span></p>
   </li>
   <li>
-    <b>Perfect Competition</b>
+    <b>Perfect Competition ($\sigma=1$)</b>
   </li>
   <li>
     <b>Monopoly and Monopsony</b>

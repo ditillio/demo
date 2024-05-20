@@ -82,20 +82,9 @@
 
 {% include textbook-graph.html graph="/gr_3.1.3" %}
 
-{% include textbook-graph.html graph="/gr_3.1.4" %}
-
-{% include textbook-graph.html graph="/gr_3.1.5" %}
 
 
 {% include textbook-graph.html graph="/gr_3.2.1" %}
-
-{% include textbook-graph.html graph="/gr_3.2.B" %}
-
-{% include textbook-graph.html graph="/gr_3.2.BB" %}
-
-{% include textbook-graph.html graph="/gr_3.2.C" %}
-
-{% include textbook-graph.html graph="/gr_3.2.D" %}
 
 {% include textbook-graph.html graph="/gr_3.2.J" %}
 
@@ -103,14 +92,23 @@
 
 {% include textbook-graph.html graph="/gr_3.2.Y" %}
 
+{% include textbook-graph.html graph="/gr_3.2.B" %}
+
+{% include textbook-graph.html graph="/gr_3.2.BB" %}
+
+{% include textbook-graph.html graph="/gr_3.2.C" %}
+
+{% include textbook-graph.html graph="/gr_3.2.DD" %}
+
 {% include textbook-graph.html graph="/gr_3.3.A" %}
 
+{% include textbook-graph.html graph="/gr_5.1.X" %}
 
 {% include textbook-graph.html graph="/gr_5.1.A" %}
 
-{% include textbook-graph.html graph="/gr_3.2.1" %}
 
-{% include textbook-graph.html graph="/gr_5.1.X" %}
+
+
 
 
 {% include textbook-graph.html graph="/gr_6.A.B" %}
