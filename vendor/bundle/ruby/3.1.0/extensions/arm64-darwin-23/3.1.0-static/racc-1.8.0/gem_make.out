@@ -1,0 +1,15 @@
+current directory: /Users/ditillio/GitHub/demo/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+/Users/ditillio/.rubies/ruby-3.1.3/bin/ruby -I /Users/ditillio/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/ditillio/GitHub/demo/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240520-45497-8zl78y sitelibdir\=./.gem.20240520-45497-8zl78y clean
+
+current directory: /Users/ditillio/GitHub/demo/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240520-45497-8zl78y sitelibdir\=./.gem.20240520-45497-8zl78y
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/ditillio/GitHub/demo/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240520-45497-8zl78y sitelibdir\=./.gem.20240520-45497-8zl78y install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240520-45497-8zl78y/racc

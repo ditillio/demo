@@ -1,3 +1,0 @@
-Contenuto del Capitolo 2 ...
-
-{% include textbook-graph.html graph="graph-profit" %}

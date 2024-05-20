@@ -1,3 +1,0 @@
-Questa è (meglio sarà) l'introduzione, amici ...
-
-{% include textbook-graph.html graph="graph-demand" %}

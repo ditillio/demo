@@ -1,30 +1,11 @@
 ---
-title: Note di Microeconomia
+title: Micro
 author: Alfredo Di Tillio
 parts:
-  - title: Titolo della Parte I
+  - title: Demo
     folder: parte1
     number: Parte I
     chapters:
-      - title: Introduzione
-        filename: capitolo1
+      - title: Demo
+        filename: demo
         number: 1
-      - title: Titolo del Capitolo 2
-        filename: capitolo2
-        number: 2
-      - title: Titolo del Capitolo 3
-        filename: capitolo3
-        number: 3
-  - title: Titolo della Parte II
-    folder: parte2
-    number: Parte II
-    chapters:
-      - title: Titolo del Capitolo 4
-        filename: capitolo4
-        number: 4
-      - title: Titolo del Capitolo 5
-        filename: capitolo5
-        number: 5
-      - title: Titolo del Capitolo 6
-        filename: capitolo6
-        number: 6
