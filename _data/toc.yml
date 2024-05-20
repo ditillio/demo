@@ -6,8 +6,8 @@ parts:
     folder: part1
     number: Demo
     chapters:
-      - title: Reform Update
-        filename: reformupdate
+      - title: Reform
+        filename: reform
         number: 1
       - title: Demo
         filename: demo

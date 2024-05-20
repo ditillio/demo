@@ -1,17 +1,6 @@
 
 
-<p>
 
-Content (eBook under preparation)
-Consumer: Quasilinear prefs, linear demand. Firm: Lumpy capital
-(1) Perfect competition, Monopoly & Monopsony, Cournot, Bertrand, Market Interventions
-(2) Externalities & Pub. Goods, Uncertainty, Asymm Info, Principal-Agent, Auctions, Matching
-Experimental Classes on MobLab:
-(1) Competitive Markets, Cournot, Bertrand
-(2) Lemons Market, Principal-Agent, Auctions.
-Instructor-Specific Classes: 2 classes (4 hrs) in each part
-
-</p>
 
 
 <a id="tab_1.1.1"><strong>Tabella 1.1.1</strong></a>
