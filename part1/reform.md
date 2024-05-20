@@ -59,16 +59,25 @@
     <b>Choice under Uncertainty</b>
   </li>
   <li>
-    <b>Adverse Selection, Screening</b>
+    <b>Adverse Selection</b>
+    <ul>
+      <li> Labor, Insurance, Credit </li>
+    </ul>
   </li>
   <li>
     <b>Moral Hazard</b>
+    <ul>
+      <li> Labor, Insurance, Credit </li>
+    </ul>
   </li>
   <li>
-    <b>Market Design: Auctions</b>
-  </li>
-  <li>
-    <b>Market Design: Matching</b>
+    <b>Market Design</b>
+    <ul>
+      <li> Screening, Auctions </li>
+    </ul>
+    <ul>
+      <li> Matching </li>
+    </ul>
   </li>
 </ul>
 
