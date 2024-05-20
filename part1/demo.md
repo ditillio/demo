@@ -53,6 +53,7 @@
 <p></p>
 
 
+
 {% include textbook-graph.html graph="/gr_1.1.1" %}
 
 {% include textbook-graph.html graph="/gr_2.1.1" %}
@@ -97,8 +98,6 @@
 {% include textbook-graph.html graph="/gr_3.2.BB" %}
 
 {% include textbook-graph.html graph="/gr_3.2.C" %}
-
-{% include textbook-graph.html graph="/gr_3.2.DD" %}
 
 {% include textbook-graph.html graph="/gr_3.3.A" %}
 

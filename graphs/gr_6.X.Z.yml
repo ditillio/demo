@@ -106,7 +106,7 @@ layout:
 #          label: "\\text{Mostra e calcola surplus dei consumatori.}"
         sliders:
         - param: g
-          label: \gamma
+          label: \sigma
         - param: aa
           label: \alpha
         - param: m
