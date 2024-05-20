@@ -28,6 +28,9 @@
   </li>
   <li>
     <b>Monopoly and Monopsony</b>
+    <ul>
+      <li> Monopsony in Labor Market  </li>
+    </ul>
   </li>
   <li>
     <b>Cournot</b>
@@ -45,6 +48,9 @@
   </li>
   <li>
     <b>Market Interventions</b>
+    <ul>
+      <li> Taxation, Regulation, Equity vs. Efficiency </li>
+    </ul>
   </li>
   <li>
     <b>Externalities and Public Goods</b>
