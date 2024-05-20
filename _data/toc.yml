@@ -9,6 +9,6 @@ parts:
       - title: Reform
         filename: reform
         number: 1
-      - title: Demo
+      - title: Demo eBook
         filename: demo
         number: 2
